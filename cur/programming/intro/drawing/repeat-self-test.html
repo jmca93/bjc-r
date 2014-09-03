@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <script type="text/javascript" src="/bjc-r/admin/bjc-loader.js"></script>
+        <script type="text/javascript" src="/bjc-r/llab/loader.js"></script>
         <title>
             Self Test: Nested Repeat
         </title>
@@ -25,9 +25,9 @@
 					8
 				</div>
 				<div class="feedback">
-					No, this is too large.  Check carefully each of the repeat
-					loops, and which loops the 
-					"say Hip for 2 secs" block is inside.
+					The outer <code>repeat</code> runs its input script twice. 
+					For each of those two runs, how many times does the inner <code>repeat</code> run the <code>say</code> block? 
+					The total number of times will be twice that number.
 				</div>
 			</div>
 			<div class="choice" identifier="c2">
